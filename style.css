@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
-    --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
-    --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --cor-de-fundo: #faa9a9;
+    --verde: #c54945;
+    --branco: #591414;
+    --botao-ativo: #d76666;
+    --botao-inativo: #a44e4e;
+    --texto-fundo: #792b2b;
 }
 
 body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco);
+    background-color: #eeeeee;
+    color: #591414;
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -33,23 +33,23 @@ body {
 }
 
 .titulo-principal span {
-    color: var(--verde);
+    color: #c54945;
 }
 
 
 .botao {
     font-family: 'Chakra Petch', sans-serif;
-    background-color: var(--botao-inativo);
-    color: var(--branco);
+    background-color: #a44e4e;
+    color: #591414;
     display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--botao-ativo);
-    border-left: 2px solid var(--botao-ativo);
-    border-right: 2px solid var(--botao-ativo);
+    border-bottom: 4px solid #d76666;
+    border-left: 2px solid #d76666;
+    border-right: 2px solid #d76666;
     border-top: none;
 }
 
@@ -62,12 +62,12 @@ body {
 }
 
 .botao.ativo {
-    background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    background-color: #d76666;
+    border-bottom: 4px solid #c54945;
 }
 
 .abas-textos {
-    background-color: var(--texto-fundo);
+    background-color: rgba(249, 110, 106, 0.3);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
@@ -87,7 +87,7 @@ body {
 
 .aba-conteudo-titulo-secundario {
     text-align: center;
-    color: var(--verde);
+    color: #c54945;
     text-transform: uppercase;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .contador-digito-texto {
-    color: var(--verde);
+    color: #c54945;
     font-size: 20px;
     margin: 0;
 
