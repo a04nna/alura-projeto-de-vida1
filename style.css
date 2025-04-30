@@ -10,8 +10,8 @@
 }
 
 body {
-    background-color: var(#eeeeee);
-    color: var(#591414);
+    background-color: #eeeeee;
+    color: #591414;
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -33,23 +33,23 @@ body {
 }
 
 .titulo-principal span {
-    color: var(#c54945);
+    color: #c54945;
 }
 
 
 .botao {
     font-family: 'Chakra Petch', sans-serif;
-    background-color: var(#a44e4e);
-    color: var(#591414);
+    background-color: #a44e4e;
+    color: #591414;
     display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(#d76666);
-    border-left: 2px solid var(#d76666);
-    border-right: 2px solid var(#d76666);
+    border-bottom: 4px solid #d76666;
+    border-left: 2px solid #d76666;
+    border-right: 2px solid #d76666;
     border-top: none;
 }
 
@@ -62,12 +62,12 @@ body {
 }
 
 .botao.ativo {
-    background-color: var(#d76666);
-    border-bottom: 4px solid var(#c54945);
+    background-color: #d76666;
+    border-bottom: 4px solid #c54945;
 }
 
 .abas-textos {
-    background-color: var(rgba(249, 110, 106, 0.3));
+    background-color: rgba(249, 110, 106, 0.3);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
@@ -87,7 +87,7 @@ body {
 
 .aba-conteudo-titulo-secundario {
     text-align: center;
-    color: var(#c54945);
+    color: #c54945;
     text-transform: uppercase;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .contador-digito-texto {
-    color: var(#c54945);
+    color: #c54945;
     font-size: 20px;
     margin: 0;
 
